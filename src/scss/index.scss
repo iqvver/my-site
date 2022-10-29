@@ -1,7 +1,10 @@
 @import "normalize.css";
 @import './variables';
+@import './blocks/text';
+@import './blocks/buttons';
 
 @import './base/app';
-
+@import '../Components/Widgets/WidgetsStyle';
+@import '../Components/ComponentsStyle';
 
 @import './media';

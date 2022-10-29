@@ -1,0 +1,11 @@
+.navbar {
+    display: flex;
+
+    &__link {
+        margin-right: 30px;
+    }
+
+    @media (max-width: 800px) {
+        display: none;
+    }
+}

@@ -1,0 +1,16 @@
+.header-text {
+    font-weight: 800;
+    text-transform: uppercase;
+    cursor: pointer;
+
+    &_17px {
+        font-size: 17px;
+    }
+    &_12px {
+        font-size: 12px;
+    }
+
+    &:hover {
+        opacity: .8;
+    }
+}

@@ -1,9 +1,12 @@
+import Header from './Components/Header/Header';
 import './css/index.min.css';
 
 function App() {
   return (
     <div className='app'>
-      <div className='app-container'>Hello, World!!!</div>
+      <div className='app-container'>
+        <Header />
+      </div>
     </div>
   );
 }

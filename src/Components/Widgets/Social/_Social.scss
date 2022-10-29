@@ -1,0 +1,16 @@
+.social {
+    width: 100px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+
+    img {
+        width: 20px;
+        height: 100%;
+        cursor: pointer;
+
+        &:hover {
+            opacity: .8;
+        }
+    }
+}
