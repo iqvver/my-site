@@ -1,7 +1,9 @@
 @import "normalize.css";
 @import './variables';
+@import './mixins';
 @import './blocks/text';
 @import './blocks/buttons';
+@import './blocks/divider';
 
 @import './base/app';
 @import '../Components/Widgets/WidgetsStyle';

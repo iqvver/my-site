@@ -1,8 +1,8 @@
 import React from "react";
-import google from '../../../Assets/Icons/google.svg'
-import telegram from '../../../Assets/Icons/telegram.svg'
-import vk from '../../../Assets/Icons/vk.svg'
-import github from '../../../Assets/Icons/github.svg'
+import google from '../../../Assets/Icons/social/google.svg'
+import telegram from '../../../Assets/Icons/social/telegram.svg'
+import vk from '../../../Assets/Icons/social/vk.svg'
+import github from '../../../Assets/Icons/social/github.svg'
 
 const Social = () => {
   return (
