@@ -1,0 +1,36 @@
+.ability {
+    padding: 100px 20px 0 20px;
+
+    &__title {
+        text-align: center;
+    }
+
+    &__wrapper {
+        padding-top: 60px;
+        padding-bottom: 25px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 350px);
+        gap: 13px;
+        grid-auto-rows: 350px;
+        justify-content: center;
+    }
+
+    &__item {
+        padding: 30px 30px 25px 30px;
+        border: 1px solid #000000;
+
+        &-img {
+            height: 75px;
+            display: flex;
+            align-items: center;
+        }
+
+        &-title {
+            margin-top: 24px;
+        }
+
+        &-text {
+            margin-top: 15px;
+        }
+    }
+}

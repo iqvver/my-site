@@ -1,3 +1,4 @@
+import Ability from './Components/Ability/Ability';
 import About from './Components/About/About';
 import Header from './Components/Header/Header';
 import Promo from './Components/Promo/Promo';
@@ -10,6 +11,7 @@ function App() {
         <Header />
         <Promo />
         <About />
+        <Ability />
       </div>
     </div>
   );
