@@ -1,4 +1,5 @@
 import Header from './Components/Header/Header';
+import Promo from './Components/Promo/Promo';
 import './css/index.min.css';
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <div className='app'>
       <div className='app-container'>
         <Header />
+        <Promo />
       </div>
     </div>
   );

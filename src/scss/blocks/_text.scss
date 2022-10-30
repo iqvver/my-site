@@ -6,11 +6,22 @@
     &_17px {
         font-size: 17px;
     }
+
     &_12px {
         font-size: 12px;
     }
 
     &:hover {
         opacity: .8;
+    }
+}
+
+.title {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 60px;
+
+    &_fs20 {
+        font-size: 20px;
     }
 }
