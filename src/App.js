@@ -1,5 +1,6 @@
 import Ability from './Components/Ability/Ability';
 import About from './Components/About/About';
+import Contact from './Components/Contact/Contact';
 import Header from './Components/Header/Header';
 import Portfolio from './Components/Portfolio/Portfolio';
 import Promo from './Components/Promo/Promo';
@@ -14,6 +15,7 @@ function App() {
         <About />
         <Ability />
         <Portfolio />
+        <Contact />
       </div>
     </div>
   );

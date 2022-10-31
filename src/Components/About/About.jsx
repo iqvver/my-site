@@ -14,7 +14,7 @@ const About = () => {
         <div className="descr">
           <h2 className="about__title">Про меня</h2>
           <div className="about__title"> Меня зовут Валерий</div>
-          <div className="about-divider about-divider_m10"></div>
+          <div className="divider divider_m10"></div>
           <div className="about__text">
             Я являюсь фронт-энд-разработчиком в Калининграде. Я увлекаюсь
             эффектами пользовательского интерфейса, анимацией и созданием

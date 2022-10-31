@@ -11,7 +11,7 @@ const Ability = () => {
     <div className="ability">
       <h2 className="ability__title">Навыки</h2>
       <div className="ability__title">Что я использую в работе</div>
-      <div className="about-divider"></div>
+      <div className="divider"></div>
       <div className="ability__wrapper">
         <div className="ability__item">
           <div className="ability__item-img">

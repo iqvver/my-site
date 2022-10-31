@@ -17,4 +17,12 @@
     &_bg-none {
         background: none;
     }
+
+    &_bg-contact {
+        background-color: $main-color;
+        color: $sub-color;
+        border-radius: 0px;
+        width: 100px;
+        height: 30px;
+    }
 }

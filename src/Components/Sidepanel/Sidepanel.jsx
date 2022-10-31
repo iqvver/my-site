@@ -1,13 +1,12 @@
 import React from 'react'
 import Social from "../Widgets/Social/Social";
 import SwitchLang from "../Widgets/SwitchLang/SwitchLang";
-import ContactForm from "../Widgets/СontactForm/ContactForm";
 
 const Sidepanel = () => {
   return (
     <div className="sidepanel">
         <Social />
-        <ContactForm />
+        <div className='header-text header-text_17px'>CONTACT US</div>
         <SwitchLang />
       </div>
   )
