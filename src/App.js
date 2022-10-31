@@ -1,6 +1,7 @@
 import Ability from './Components/Ability/Ability';
 import About from './Components/About/About';
 import Header from './Components/Header/Header';
+import Portfolio from './Components/Portfolio/Portfolio';
 import Promo from './Components/Promo/Promo';
 import './css/index.min.css';
 
@@ -12,6 +13,7 @@ function App() {
         <Promo />
         <About />
         <Ability />
+        <Portfolio />
       </div>
     </div>
   );
