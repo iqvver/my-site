@@ -5,6 +5,7 @@
     grid-template: 50px 20px 5px 300px / 50%;
     justify-content: center;
     justify-items: center;
+    text-align: center;
 
     &__title  {
         grid-row: 1 / 2;
@@ -14,7 +15,7 @@
     }
 
     &__form {
-        margin: 50px;
+        margin-top: 50px;
         grid-row: 3 / 4;
     }
 }

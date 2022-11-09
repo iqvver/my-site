@@ -12,7 +12,7 @@ const Portfolio = () => {
         <div className="portfolio__title">Мои работы</div>
         <div className="divider"></div>
         <div className="portfolio__wrapper">
-          <a className="portfolio__item">
+          <a className="portfolio__item vertical-one">
             <img src={plans} alt="plans" />
           </a>
           <a className="portfolio__item">
@@ -24,7 +24,7 @@ const Portfolio = () => {
           <a className="portfolio__item horizontal">
             <img src={mac} alt="mac" />
           </a>
-          <a className="portfolio__item vertical">
+          <a className="portfolio__item vertical-two">
             <img src={plans} alt="plans" />
           </a>
         </div>

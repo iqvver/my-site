@@ -8,7 +8,9 @@ const Footer = () => {
         Pavlov[Valerii] {""}
         <span> &#169;2022</span>
       </div>
-      <Social />
+      <div className="footer__social">
+        <Social />
+      </div>
     </div>
   );
 };

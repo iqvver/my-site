@@ -11,7 +11,7 @@ const About = () => {
         <div className="about__photo">
           <img src={mainPhoto} alt="" />
         </div>
-        <div className="descr">
+        <div className="about__descr">
           <h2 className="about__title">Про меня</h2>
           <div className="about__title"> Меня зовут Валерий</div>
           <div className="divider divider_m10"></div>
@@ -23,45 +23,35 @@ const About = () => {
           </div>
           <div className="about__skils">
             <div className="about__skil">
-              <div className="about__skil-circle">
+              <div className="about__skil-title">
                 <img src={webDev} alt="web-dev" />
+                <div className="title_fs14">Web-разработка</div>
               </div>
-              <div>
-                <div className="about__text title title_fs14">
-                  Web-разработка
-                </div>
-                <div className="about__skil-text text text_fs12">
-                  Основными этапами процесса являются веб-дизайн, вёрстка
-                  страниц, программирование на стороне клиента и сервера, а
-                  также конфигурирование веб-сервера.
-                </div>
+              <div className="about__skil-text text text_fs12">
+                Основными этапами процесса являются веб-дизайн, вёрстка страниц,
+                программирование на стороне клиента и сервера, а также
+                конфигурирование веб-сервера.
               </div>
             </div>
             <div className="about__skil">
-              <div className="about__skil-circle">
+              <div className="about__skil-title">
                 <img src={mobDev} alt="mob-dev" />
+                <div className="title_fs14">Разработка приложений</div>
               </div>
-              <div>
-                <div className="about__text title title_fs14">
-                  Разработка приложений
-                </div>
-                <div className="about__skil-text text text_fs12">
-                  Процесс, при котором приложения разрабатываются для
-                  небольших портативных устройств, таких, как КПК, смартфоны или
-                  сотовые телефоны.
-                </div>
+              <div className="about__skil-text text text_fs12">
+                Процесс, при котором приложения разрабатываются для небольших
+                портативных устройств, таких, как КПК, смартфоны или сотовые
+                телефоны.
               </div>
             </div>
             <div className="about__skil">
-              <div className="about__skil-circle">
+              <div className="about__skil-title">
                 <img src={design} alt="design" />
+                <div className="title_fs14">UI/UX Design</div>
               </div>
-              <div>
-                <div className="about__text title title_fs14">UI/UX Design</div>
-                <div className="about__skil-text text text_fs12">
-                  Проектирование любых пользовательских интерфейсов в которых
-                  удобство использования так же важно как и внешний вид.
-                </div>
+              <div className="about__skil-text text text_fs12">
+                Проектирование любых пользовательских интерфейсов в которых
+                удобство использования так же важно как и внешний вид.
               </div>
             </div>
           </div>

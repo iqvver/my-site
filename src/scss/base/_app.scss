@@ -3,19 +3,17 @@
 * {
   font-family: 'Inter', sans-serif;
   box-sizing: border-box;
+  font-size: calc(10px + 1vmin);
 }
 
 .app {
   background-color: $color-black;
-  min-height: 100vh;
   color: $sub-color;
-  display: flex;
-  justify-content: center;
-  padding: 50px 50px 50px 50px;
- 
+  padding: 20px 20px 20px 20px;
 
   &-container {
     max-width: 1280px;
+    margin: 0 auto;
     background-color: $sub-color;
     border-radius: 10px;
     z-index: 1;
