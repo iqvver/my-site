@@ -10,9 +10,9 @@
         padding-top: 60px;
         padding-bottom: 25px;
         display: grid;
-        grid-template-columns: repeat(auto-fit, 350px);
-        gap: 13px;
-        grid-auto-rows: 350px;
+        grid-template-columns: repeat(3, auto);
+        gap: 10px;
+        grid-auto-rows: auto;
         justify-content: center;
     }
 

@@ -6,7 +6,7 @@ const Sidepanel = () => {
   return (
     <div className="sidepanel">
         <Social />
-        <div className='header-text header-text_17px'>CONTACT US</div>
+        <div className='header-text header-text_12px'>CONTACT US</div>
         <SwitchLang />
       </div>
   )

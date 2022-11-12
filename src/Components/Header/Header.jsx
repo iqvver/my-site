@@ -6,17 +6,11 @@ import Sidepanel from "../Sidepanel/Sidepanel";
 const Header = () => {
   return (
     <header className="header">
-      <div className="header__sidepanel">
-        <Sidepanel />
-      </div>
-      <div className="header__logo">
-        <img src={logo} alt="logo" />
-      </div>
       <div className="header__nav">
         <Navbar />
       </div>
-      <div className="header__btm">
-        <button className="button">Какая-то кнопка</button>
+      <div className="header__sidepanel">
+        <Sidepanel />
       </div>
     </header>
   );

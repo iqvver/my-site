@@ -1,7 +1,5 @@
 .navbar {
-    display: flex;
-
-    &__link {
-        margin-right: 30px;
-    }
+    display: grid;
+    grid-template: 20px / repeat(4, auto);
+    gap: 20px;
 }

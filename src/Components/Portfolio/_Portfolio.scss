@@ -4,10 +4,10 @@
 
     &__title {
         text-align: center;
+        margin-top: 5px;
     }
 
     &__wrapper {
-        background-color: aqua;
         margin-top: 20px;
         display: grid;
         justify-content: center;
@@ -36,6 +36,13 @@
             width: 100%;
             height: 100%;
             object-fit: cover;
+            transition: all .6s;
+            filter: grayscale(1);
+
+            &:hover {
+                transition: all .6s;
+                filter: grayscale(0);
+            }
         }
     }
 }

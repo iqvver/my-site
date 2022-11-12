@@ -1,10 +1,10 @@
 .contact {
-    padding: 0 20px 20px 20px;
+    padding: 0 20px 0px 20px;
     color: $main-color;
+    background-color: $sub-color;
     display: grid;
-    grid-template: 50px 20px 5px 300px / 50%;
+    grid-template: 50px 20px 5px 350px / 50%;
     justify-content: center;
-    justify-items: center;
     text-align: center;
 
     &__title  {
