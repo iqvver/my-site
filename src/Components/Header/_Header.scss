@@ -1,10 +1,20 @@
 .header {
     padding: 10px 20px 10px 20px;
     display: grid;
-    grid-template: 10px / repeat(2, auto);
+    grid-template: 15px / repeat(2, auto);
     background-color: $main-color;
     justify-content: space-between;
     align-content: center;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    box-shadow: 0px 1px 5px 0px rgba(34, 60, 80, 0.6);
+
+    &__nav {
+        &-hamburger {
+            display: none;
+        }
+    }
 
     &__sidepanel {
         grid-row: 1 / 2;

@@ -13,6 +13,9 @@ const Navbar = () => {
         мои навыки
       </a>
       <a href="#" className="navbar__link header-text header-text_12px">
+        мои работы
+      </a>
+      <a href="#" className="navbar__link header-text header-text_12px">
         контакты
       </a>
     </div>

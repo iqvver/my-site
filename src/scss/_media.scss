@@ -77,10 +77,22 @@
 
     .header {
         padding: 10px 10px 10px 10px;
+
+        &__nav {
+            &-hamburger {
+                display: block;
+            }
+
+            &-bar {
+                display: none;
+            }
+        }
     }
 
     .navbar {
-        display: none;
+        display: grid;
+        grid-template: repeat(5, 20px) / auto;
+        gap: 0px;
     }
 
     .promo {
@@ -173,6 +185,26 @@
 
     .header {
         grid-template: 20px / auto;
+    }
+
+    .menu {
+    
+        &__block {
+            width: 310px;
+        }
+    
+        &__close {
+            top: 15px;
+            right: 15px;
+        }
+    
+        &__list {
+            padding: 15px 0 0 15px;
+        }
+    
+        &__link {
+            font-size: 16px;
+        }
     }
 
     .promo {
