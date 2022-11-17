@@ -5,10 +5,10 @@ const Promo = () => {
   return (
     <div className="promo">
       <div className="promo__wrapper">
-        <div className="promo__title title title_fs20">
+        <div className="promo__title title title_fs20 animate__animated animate__slideInLeft">
           Меня зовут Павлов Валерий
         </div>
-        <div className="promo__title title">
+        <div className="promo__title title animate__animated animate__slideInLeft">
           Я web-разработчик из города Калининград
         </div>
         <div className="promo__btm">

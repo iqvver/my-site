@@ -17,5 +17,10 @@
     &__form {
         margin-top: 50px;
         grid-row: 3 / 4;
+        visibility: hidden;
+
+        &_active {
+            visibility: visible;
+        }
     }
 }
