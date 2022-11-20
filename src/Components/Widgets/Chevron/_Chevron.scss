@@ -1,0 +1,28 @@
+.chevron {
+    display: none;
+
+    &_active {
+        display: block;
+    }
+}
+
+.page-up {
+    cursor: pointer;
+    display: block;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    width: 50px;
+    z-index: 10;
+    background: linear-gradient(145deg, #01f099, #01ca81);  
+    border: none;
+    border-radius: 10px;
+
+    &:hover {
+        bottom: 45px;
+    }
+
+    img {
+        width: 100%;
+    }
+}

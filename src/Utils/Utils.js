@@ -3,6 +3,20 @@ import $ from "jquery";
 /**
  * @param {Animation} now 
  */
+export const AnimationChevron = () => {
+    $(window).scroll(function () {
+        $(".chevron").each(function () {
+            var imagePos = $(this).offset().top;
+            var topOfWindow = $(window).scrollTop();
+            if (topOfWindow > 1000) {
+                $(this).addClass("chevron_active");
+            } else {
+                $(this).removeClass("chevron_active");
+            }
+        });
+    });
+}
+
 export const AnimationFooter = () => {
     $(window).scroll(function () {
         $(".footer-animate").each(function () {
@@ -14,6 +28,7 @@ export const AnimationFooter = () => {
         });
     });
 }
+
 export const AnimationAbout = () => {
     $(window).scroll(function () {
         $(".about__descr").each(function () {
@@ -25,6 +40,7 @@ export const AnimationAbout = () => {
         });
     });
 }
+
 export const AnimationPortfolio = () => {
     $(window).scroll(function () {
         $(".portfolio__wrapper").each(function () {
@@ -36,6 +52,7 @@ export const AnimationPortfolio = () => {
         });
     });
 }
+
 export const AnimationContact = () => {
     $(window).scroll(function () {
         $(".contact__form").each(function () {

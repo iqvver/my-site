@@ -2,7 +2,7 @@ import React from "react";
 
 const ContactForm = () => {
   return (
-    <div className="contact-form">
+    <div className="contact-form" id="contact__form">
       <div className="contact-form__input">
         <input required name="name" id="name" type="text" placeholder="Ваше имя" />
       </div>

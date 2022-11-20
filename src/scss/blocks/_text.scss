@@ -2,6 +2,7 @@
     font-weight: 800;
     text-transform: uppercase;
     cursor: pointer;
+    transition: all .3s;
 
     &_17px {
         font-size: 17px;
@@ -12,7 +13,8 @@
     }
 
     &:hover {
-        opacity: .8;
+        margin-top: -3px;
+        transition: all .3s;
     }
 }
 

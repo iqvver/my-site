@@ -1,15 +1,19 @@
 .social {
-    height: 15px;
-    width: 70px;
     display: flex;
     justify-content: space-between;
+    width: 120px;
 
     img {
         height: 100%;
         cursor: pointer;
+        height: 25px;
+        padding: 4px;
+        border-radius: 5px;
+        background: linear-gradient(145deg, #01f099, #01ca81);        
 
         &:hover {
-            opacity: .8;
+            margin-top: -3px;
+            transition: all .3s;
         }
     }
 }

@@ -1,5 +1,6 @@
 .sidepanel {
     display: grid;
+    align-items: center;
     grid-template: 20px / repeat(3, auto);
     column-gap: 10px;
 }

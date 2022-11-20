@@ -1,7 +1,7 @@
 .header {
     padding: 10px 20px 10px 20px;
     display: grid;
-    grid-template: 15px / repeat(2, auto);
+    grid-template: auto / repeat(2, auto);
     background-color: $main-color;
     justify-content: space-between;
     align-content: center;
