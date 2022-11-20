@@ -1,6 +1,11 @@
 .navbar {
+    margin-left: 150px;
     display: grid;
     align-items: center;
-    grid-template: 20px / repeat(5, auto);
-    gap: 20px;
+    grid-template: 25px / repeat(5, auto);
+    gap: 30px;
+
+    &__link {
+        max-width: 100px;
+    }
 }

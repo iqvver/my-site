@@ -64,3 +64,11 @@ export const AnimationContact = () => {
         });
     });
 }
+
+/**
+ * @param {scrollTop} now 
+ */
+
+export const scrollTop = () => {
+    window.scrollTo(0, 0);
+}

@@ -6,11 +6,11 @@ import design from "../../Assets/Icons/about-me/design.svg";
 
 const About = () => {
   return (
-    <div className="about">
+    <div className="about" id="about">
       <div className="container">
         <div className="about__wrapper">
           <div className="about__photo">
-            <img src={mainPhoto} alt="" />
+            <img src={mainPhoto} alt="photo" />
           </div>
           <div className="about__descr">
             <h2 className="about__title">Про меня</h2>

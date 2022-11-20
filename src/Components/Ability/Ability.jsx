@@ -8,7 +8,7 @@ import Progres from "./Progres";
 
 const Ability = () => {
   return (
-    <div className="ability">
+    <div className="ability"id="ability">
       <div className="container">
         <h2 className="ability__title">Навыки</h2>
         <div className="ability__title">Что я использую в работе</div>

@@ -12,12 +12,12 @@ const Promo = () => {
           Я web-разработчик из города Калининград
         </div>
         <div className="promo__btm">
-          <button href="#" className="promo__link button">
-            Портфолио
-          </button>
-          <button className="promo__link button button_bg-none">
-            Про меня
-          </button>
+          <a href="#portfolio">
+            <button className="button">Портфолио</button>
+          </a>
+          <a href="#about">
+            <button className="button button_bg-none">Про меня</button>
+          </a>
         </div>
       </div>
       <div className="promo__img">

@@ -3,7 +3,7 @@ import ContactForm from "../Widgets/СontactForm/ContactForm";
 
 const Contact = () => {
   return (
-    <div className="contact">
+    <div className="contact" id="contacts">
       <div className="container">
         <h2 className="contact__title">КОТАКТЫ</h2>
         <div className="contact__subtitle">

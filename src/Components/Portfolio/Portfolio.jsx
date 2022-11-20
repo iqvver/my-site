@@ -7,7 +7,7 @@ import mac from "../../Assets/Images/works/mac.jpg";
 const Portfolio = () => {
   return (
     <>
-      <div className="portfolio">
+      <div className="portfolio" id="portfolio">
         <div className="container">
             <h2 className="portfolio__title">Портфолио</h2>
             <div className="portfolio__title">Мои работы</div>
