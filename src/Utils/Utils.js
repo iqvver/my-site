@@ -22,7 +22,7 @@ export const AnimationFooter = () => {
         $(".footer-animate").each(function () {
             var imagePos = $(this).offset().top;
             var topOfWindow = $(window).scrollTop();
-            if (imagePos < topOfWindow + 450) {
+            if (imagePos < topOfWindow + 950) {
                 $(this).addClass("animate__animated animate__zoomIn");
             }
         });

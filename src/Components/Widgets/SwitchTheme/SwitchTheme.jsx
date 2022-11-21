@@ -1,6 +1,6 @@
 import React from "react";
 
-const SwitchLang = ({ switchTheme, setSwitchTheme }) => {
+const SwitchTheme = ({ switchTheme, setSwitchTheme }) => {
   return (
     <div
       className="language header-text header-text_12px"
@@ -12,4 +12,4 @@ const SwitchLang = ({ switchTheme, setSwitchTheme }) => {
   );
 };
 
-export default SwitchLang;
+export default SwitchTheme;

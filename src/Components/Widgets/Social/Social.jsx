@@ -8,13 +8,13 @@ const Social = () => {
   return (
     <div className="social">
       <a href="mailto:iqvver@gmail.com">
-        <img src={google} alt="google" target="_blank" />
+        <img src={google} alt="google" />
       </a>
-      <a href="https://t.me/iqvver">
-        <img src={telegram} alt="telegram" target="_blank" />
+      <a href="https://t.me/iqvver" target="_blank">
+        <img src={telegram} alt="telegram" />
       </a>
-      <a href="https://vk.com/iqvver">
-        <img src={vk} alt="vk" target="_blank" />
+      <a href="https://vk.com/iqvver" target="_blank">
+        <img src={vk} alt="vk" />
       </a>
       <a href="https://github.com/iqvver" target="_blank">
         <img src={github} alt="github" />

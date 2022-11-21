@@ -7,6 +7,9 @@
     
 
     &__text {
+        display: flex;
+        align-items: center;
+        height: 30px;
         margin-bottom: 10px;
 
         span {

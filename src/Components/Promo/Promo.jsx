@@ -1,9 +1,8 @@
 import React from "react";
-import bg from "../../Assets/Images/bg.png";
 
 const Promo = () => {
   return (
-    <div className="promo">
+    <div className="promo" id="promo">
       <div className="promo__stars" />
       <div className="promo__stars2" />
       <div className="promo__stars3" />

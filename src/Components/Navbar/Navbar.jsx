@@ -1,10 +1,9 @@
 import React from "react";
-import { scrollTop } from "../../Utils/Utils";
 
 const Navbar = () => {
   return (
     <div className="navbar">
-      <a onClick={scrollTop} className="navbar__link header-text header-text_12px">
+      <a href="#promo" className="navbar__link header-text header-text_12px">
         главная
       </a>
       <a href="#about" className="navbar__link header-text header-text_12px">

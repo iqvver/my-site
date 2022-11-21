@@ -1,13 +1,12 @@
 import React from "react";
 import shevron from "../../../Assets/Icons/chevron.svg";
-import { scrollTop } from "../../../Utils/Utils";
 
 const Chevron = () => {
   return (
     <div className="chevron">
-      <button className="page-up" onClick={scrollTop}>
+      <a href="#promo" className="page-up">
         <img src={shevron} alt="shevron" />
-      </button>
+      </a>
     </div>
   );
 };
