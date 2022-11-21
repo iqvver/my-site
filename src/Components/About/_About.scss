@@ -1,6 +1,7 @@
 .about {
-    padding: 100px 20px 0 20px;
-    background-color: $main-color;
+    padding: 150px 20px 0 20px;
+    background-color: var(--main-color);
+    min-height: 100vh;
 
     &__wrapper {
         display: grid;

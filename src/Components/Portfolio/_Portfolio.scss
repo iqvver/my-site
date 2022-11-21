@@ -1,6 +1,6 @@
 .portfolio {
     padding: 100px 20px 100px 20px;
-    background-color: $main-color;
+    background-color: var(--main-color);
 
     &__wrapper {
         display: flex;
@@ -60,6 +60,6 @@
 .poligon {
     margin-top: -1px;
     min-height: 200px;
-    background: $main-color;
+    background: var(--main-color);
     clip-path: polygon(100% 0, 100% 15%, 50% 50%, 0 15%, 0 0);
 }

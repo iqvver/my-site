@@ -1,11 +1,11 @@
 .divider {
     width: 60px;
     height: 3px;
-    background-color: $sub-color;
+    background-color: var(--sub-color);
     margin: 25px auto 0 auto;
 
     &_bgmain {
-        background-color: $main-color;
+        background-color: var(--main-color);
     }
 
     &_m0 {

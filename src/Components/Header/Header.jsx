@@ -4,7 +4,7 @@ import Sidepanel from "../Sidepanel/Sidepanel";
 import Hamburger from "../Widgets/Hamburger/Hamburger";
 import Menu from "../Widgets/Hamburger/Menu";
 
-const Header = () => {
+const Header = ({ switchTheme, setSwitchTheme }) => {
   const [hamburgerActive, showActiv] = useState(false);
   return (
     <header className="header animate__animated animate__fadeInDown">
@@ -18,7 +18,7 @@ const Header = () => {
         </div>
       </nav>
       <div className="header__sidepanel">
-        <Sidepanel />
+        <Sidepanel switchTheme={switchTheme} setSwitchTheme={setSwitchTheme} />
       </div>
     </header>
   );

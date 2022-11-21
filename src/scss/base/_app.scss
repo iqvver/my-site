@@ -9,8 +9,8 @@
 }
 
 .app {
-  background-color: $sub-color;
-  color: $sub-color;
+  background-color: var(--sub-color);
+  color: var(--sub-color);
 }
 
 .container {
@@ -19,11 +19,11 @@
 }
 
 a {
-  color: $sub-color;
+  color: var(--sub-color);
   text-decoration: none;
 
   &:hover {
-    color: $sub-color;
+    color: var(--sub-color);
     cursor: pointer;
   }
 }

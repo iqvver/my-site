@@ -1,36 +1,112 @@
+$shadows-small: multiple-box-shadow(700);
+$shadows-medium: multiple-box-shadow(200);
+$shadows-big: multiple-box-shadow(100);
+
 .promo {
-    min-height: 100vh;
-    background: linear-gradient(105deg, #ffcc66 0%, #ffcc66 50%, $hz 50%, $hz 100%);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display: grid;
+    min-height: 110vh;
+    background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
 
+    &__stars {
+        width: 1px;
+        height: 1px;
+        background: transparent;
+        box-shadow: $shadows-small;
+        animation: animStar 50s linear infinite;
 
-    &__wrapper {
-        margin-left: 20px;
-        margin: 0 auto;
-        width: 45%;
+        &::after {
+            content: " ";
+            position: absolute;
+            top: 2000px;
+            width: 1px;
+            height: 1px;
+            background: transparent;
+            box-shadow: $shadows-small;
+        }
+    }
+
+    &__stars2 {
+        width: 2px;
+        height: 2px;
+        background: transparent;
+        box-shadow: $shadows-medium;
+        animation: animStar 100s linear infinite;
+
+        &::after {
+            content: " ";
+            position: absolute;
+            top: 2000px;
+            width: 2px;
+            height: 2px;
+            background: transparent;
+            box-shadow: $shadows-medium;
+        }
+    }
+
+    &__stars3 {
+        width: 3px;
+        height: 3px;
+        background: transparent;
+        box-shadow: $shadows-big;
+
+        &::after {
+            content: " ";
+            position: absolute;
+            top: 2000px;
+            width: 3px;
+            height: 3px;
+            background: transparent;
+            box-shadow: $shadows-big;
+        }
+    }
+
+    &__title {
         display: flex;
-        height: 300px;
         flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
+        position: absolute;
+        top: 40%;
+        left: 0;
+        right: 0;
         text-align: center;
+
+        span {
+            font-family: "Releway";
+            background: -webkit-linear-gradient($color-white, #38495a);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
     }
 
     &__btm {
-        width: 60%;
-        display: flex;
-        justify-content: space-between;
+        margin: 0 auto;
+        margin-top: 20px;
+
+        button {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+
+            &:hover {
+                &>svg {
+                    rotate: 90deg;
+                }
+            }
+        }
+
+        svg {
+            transition: all .3s;
+            vertical-align: middle;
+            width: 15px;
+        }
+    }
+}
+
+@keyframes animStar {
+    from {
+        transform: translateY(0px);
     }
 
-    &__img {
-        display: flex;
-        align-items: center;
-        width: 45%;
-
-        img {
-            width: 100%;
-        }
+    to {
+        transform: translateY(-2000px);
     }
 }

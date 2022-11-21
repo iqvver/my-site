@@ -1,6 +1,6 @@
 .footer {
     color: $main-color;
-    background-color: #013264;
+    background-color: #D3D3D3;
     padding: 50px 0 20px 0;
     display: grid;
     justify-items: center;
@@ -10,7 +10,8 @@
         margin-bottom: 10px;
 
         span {
-            color: #ffcc66;
+            font-weight: 700;
+            color: #e31b6d;
         }
     }
     &__social {

@@ -4,24 +4,22 @@ import bg from "../../Assets/Images/bg.png";
 const Promo = () => {
   return (
     <div className="promo">
-      <div className="promo__wrapper">
-        <div className="promo__title title title_fs20 animate__animated animate__slideInLeft">
-          Меня зовут Павлов Валерий
-        </div>
-        <div className="promo__title title animate__animated animate__slideInLeft">
-          Я web-разработчик из города Калининград
-        </div>
+      <div className="promo__stars" />
+      <div className="promo__stars2" />
+      <div className="promo__stars3" />
+      <div className="promo__title">
+        <span className="title title_fs60">Меня зовут Павлов Валерий</span>
+        <span className="title title_fs50">Я web-разработчик из города Калининград</span>
         <div className="promo__btm">
-          <a href="#portfolio">
-            <button className="button">Портфолио</button>
-          </a>
           <a href="#about">
-            <button className="button button_bg-none">Про меня</button>
+            <button className="button button_promo">
+              Про меня
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                <path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" fill="#e31b6d" />
+              </svg>
+            </button>
           </a>
         </div>
-      </div>
-      <div className="promo__img">
-        <img src={bg} alt="background" />
       </div>
     </div>
   );

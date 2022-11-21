@@ -1,9 +1,15 @@
-import React from 'react'
+import React from "react";
 
-const SwitchLang = () => {
+const SwitchLang = ({ switchTheme, setSwitchTheme }) => {
   return (
-    <div className='language header-text header-text_12px'>RU</div>
-  )
-}
+    <div
+      className="language header-text header-text_12px"
+      onClick={() => setSwitchTheme(!switchTheme)}
+    >
+      {" "}
+      {switchTheme ? "одно" : "другое"}
+    </div>
+  );
+};
 
-export default SwitchLang
+export default SwitchLang;

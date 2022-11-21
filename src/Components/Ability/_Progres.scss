@@ -44,7 +44,7 @@
 
             &-value {
                 border-radius: 5px;
-                background: linear-gradient(to top, $sub-color 70%, $color-white);
+                background: linear-gradient(to top, var(--sub-color) 70%, $color-white);
                 transition: all 3s;
             }
         }

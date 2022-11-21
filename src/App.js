@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { AnimationFooter, AnimationAbout, AnimationPortfolio, AnimationContact, AnimationChevron } from './Utils/Utils'
 import Ability from './Components/Ability/Ability';
 import About from './Components/About/About';
@@ -21,10 +21,17 @@ function App() {
     AnimationFooter();
   });
 
+  const [switchTheme, setSwitchTheme] = useState(false);
+  useEffect(() => {
+    const root = document.documentElement;
+    root?.style.setProperty("--main-color", switchTheme ? "#DCDCDC" : "#1b2735");
+    root?.style.setProperty("--sub-color", switchTheme ? "#1b2735" : "#DCDCDC");
+  }, [switchTheme]);
+
   return (
     <div className='app'>
       <Chevron />
-      <Header />
+      <Header switchTheme={switchTheme} setSwitchTheme={setSwitchTheme} />
       <Promo />
       <About />
       <Ability />

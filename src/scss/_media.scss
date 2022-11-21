@@ -32,14 +32,6 @@
         line-height: 40px;
     }
 
-    .promo {
-        background: linear-gradient(95deg, #ffcc66 0%, #ffcc66 50%, $hz 50%, $hz 100%);
-
-        &__btm {
-            width: 100%;
-        }
-    }
-
     .about {
         padding: 70px 20px 0 20px;
     }
@@ -97,22 +89,6 @@
         display: grid;
         grid-template: repeat(5, 20px) / auto;
         gap: 0px;
-    }
-
-    .promo {
-        background: #ffcc66 0%;
-
-        &__wrapper {
-            width: 100%;
-        }
-
-        &__btm {
-            width: 80%;
-        }
-
-        &__img {
-            display: none;
-        }
     }
 
     .about {
@@ -192,23 +168,19 @@
     }
 
     .menu {
-    
+
         &__block {
             width: 310px;
         }
-    
+
         &__close {
             top: 15px;
             right: 15px;
         }
-    
+
         &__link {
             font-size: 16px;
         }
-    }
-
-    .promo {
-        background: linear-gradient(90deg, #ffcc66 0%, #ffcc66 50%, $hz 50%, $hz 100%);
     }
 
     .about {
