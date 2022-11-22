@@ -10,13 +10,13 @@ const Social = () => {
       <a href="mailto:iqvver@gmail.com">
         <img src={google} alt="google" />
       </a>
-      <a href="https://t.me/iqvver" target="_blank">
+      <a href="https://t.me/iqvver" target="_blank" rel="noreferrer">
         <img src={telegram} alt="telegram" />
       </a>
-      <a href="https://vk.com/iqvver" target="_blank">
+      <a href="https://vk.com/iqvver" target="_blank" rel="noreferrer">
         <img src={vk} alt="vk" />
       </a>
-      <a href="https://github.com/iqvver" target="_blank">
+      <a href="https://github.com/iqvver" target="_blank" rel="noreferrer">
         <img src={github} alt="github" />
       </a>
     </div>

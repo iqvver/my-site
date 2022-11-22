@@ -18,7 +18,10 @@ const Header = ({ switchTheme, setSwitchTheme }) => {
         </div>
       </nav>
       <div className="header__sidepanel">
-        <Sidepanel switchTheme={switchTheme} setSwitchTheme={setSwitchTheme} />
+        <Sidepanel
+          switchTheme={switchTheme}
+          setSwitchTheme={() => setSwitchTheme(!switchTheme)}
+        />
       </div>
     </header>
   );

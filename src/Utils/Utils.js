@@ -6,7 +6,6 @@ import $ from "jquery";
 export const AnimationChevron = () => {
     $(window).scroll(function () {
         $(".chevron").each(function () {
-            var imagePos = $(this).offset().top;
             var topOfWindow = $(window).scrollTop();
             if (topOfWindow > 1000) {
                 $(this).addClass("chevron_active");

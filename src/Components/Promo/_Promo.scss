@@ -87,14 +87,14 @@ $shadows-big: multiple-box-shadow(100);
             justify-content: space-evenly;
 
             &:hover {
-                &>svg {
+                &>img {
                     rotate: 90deg;
                 }
             }
         }
 
-        svg {
-            transition: all .3s;
+        img {
+            transition: .3s;
             vertical-align: middle;
             width: 15px;
         }

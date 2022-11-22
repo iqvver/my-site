@@ -1,7 +1,7 @@
 .header-text {
     text-transform: uppercase;
     cursor: pointer;
-    transition: all .3s;
+    transition: all .2s;
 
     &_17px {
         font-size: 17px;
@@ -13,7 +13,6 @@
 
     &:hover {
         margin-top: -5px;
-        transition: all .3s;
     }
 }
 
