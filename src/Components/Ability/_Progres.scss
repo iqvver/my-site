@@ -20,7 +20,12 @@
             align-items: center;
 
             &-title {
+                color: var(--sub-color);
                 position: relative;
+            }
+
+            &-procent {
+                color: var(--sub-color);
             }
         }
     }

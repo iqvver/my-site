@@ -6,6 +6,7 @@ $shadows-big: multiple-box-shadow(100);
     display: grid;
     min-height: 110vh;
     background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+    overflow-anchor: none;
 
     &__stars {
         width: 1px;

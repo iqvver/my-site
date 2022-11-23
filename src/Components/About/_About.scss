@@ -12,6 +12,7 @@
 
     &__title {
         margin-top: 5px;
+        color: var(--sub-color);
     }
 
     &__photo {
@@ -46,6 +47,7 @@
         font-weight: 500;
         font-size: 14px;
         line-height: 21px;
+        color: var(--sub-color);
     }
 
     &__skils {
@@ -62,6 +64,7 @@
 
         &-title {
             display: flex;
+            color: var(--sub-color);
 
             img {
                 margin-right: 10px;
@@ -70,6 +73,7 @@
 
         &-text {
             margin-top: 5px;
+            color: var(--sub-color);
         }
     }
 }

@@ -1,8 +1,10 @@
 .ability {
     padding: 150px 20px 0 20px;
     background-color: var(--main-color);
+    color: var(--sub-color);
 
     &__title {
+        color: var(--sub-color);
         text-align: center;
     }
 
@@ -27,10 +29,12 @@
         }
 
         &-title {
+            color: var(--sub-color);
             margin-top: 24px;
         }
 
         &-text {
+            color: var(--sub-color);
             margin-top: 15px;
         }
     }

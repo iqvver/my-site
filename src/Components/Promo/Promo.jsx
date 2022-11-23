@@ -9,7 +9,7 @@ const Promo = () => {
       <div className="promo__stars2" />
       <div className="promo__stars3" />
       <div className="promo__title">
-        <span className="title title_fs60">Меня зовут Павлов Валерий</span>
+        <span className="title title_fs60">Меня зовут Валерий Павлов</span>
         <span className="title title_fs50">
           Я web-разработчик из города Калининград
         </span>
