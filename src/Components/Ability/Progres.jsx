@@ -11,7 +11,7 @@ const Progres = () => {
     }
   };
   return (
-    <div className="progres">
+    <div className="progres" id="ability">
       <div className="container">
         <div className="progres__wrapper">
           <div className="progres__item">

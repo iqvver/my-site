@@ -7,5 +7,9 @@
 
     &__link {
         max-width: 100px;
+
+        &_active {
+            color: #e31b6d;
+        }
     }
 }

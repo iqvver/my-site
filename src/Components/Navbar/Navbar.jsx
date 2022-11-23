@@ -1,23 +1,49 @@
 import React from "react";
+import { Link } from "react-scroll";
 
 const Navbar = () => {
   return (
     <div className="navbar">
-      <a href="#promo" className="navbar__link header-text header-text_12px">
+      <Link
+        to="promo"
+        className="navbar__link header-text header-text_12px"
+        activeClass="navbar__link_active"
+        spy={true}
+      >
         главная
-      </a>
-      <a href="#about" className="navbar__link header-text header-text_12px">
+      </Link>
+      <Link
+        to="about"
+        className="navbar__link header-text header-text_12px"
+        activeClass="navbar__link_active"
+        spy={true}
+      >
         про меня
-      </a>
-      <a href="#ability" className="navbar__link header-text header-text_12px">
+      </Link>
+      <Link
+        to="ability"
+        className="navbar__link header-text header-text_12px"
+        activeClass="navbar__link_active"
+        spy={true}
+      >
         мои навыки
-      </a>
-      <a href="#portfolio" className="navbar__link header-text header-text_12px">
+      </Link>
+      <Link
+        to="portfolio"
+        className="navbar__link header-text header-text_12px"
+        activeClass="navbar__link_active"
+        spy={true}
+      >
         мои работы
-      </a>
-      <a href="#contacts" className="navbar__link header-text header-text_12px">
+      </Link>
+      <Link
+        to="contacts"
+        className="navbar__link header-text header-text_12px"
+        activeClass="navbar__link_active"
+        spy={true}
+      >
         контакты
-      </a>
+      </Link>
     </div>
   );
 };

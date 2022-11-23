@@ -6,6 +6,7 @@ import Menu from "../Widgets/Hamburger/Menu";
 
 const Header = ({ switchTheme, setSwitchTheme }) => {
   const [hamburgerActive, showActiv] = useState(false);
+  
   return (
     <header className="header animate__animated animate__fadeInDown">
       <nav className="header__nav">

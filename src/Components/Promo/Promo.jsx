@@ -1,5 +1,6 @@
 import React from "react";
-import arrow from '../../Assets/Icons/arrow.svg'
+import { Link } from "react-scroll";
+import arrow from "../../Assets/Icons/arrow.svg";
 
 const Promo = () => {
   return (
@@ -9,15 +10,24 @@ const Promo = () => {
       <div className="promo__stars3" />
       <div className="promo__title">
         <span className="title title_fs60">Меня зовут Павлов Валерий</span>
-        <span className="title title_fs50">Я web-разработчик из города Калининград</span>
+        <span className="title title_fs50">
+          Я web-разработчик из города Калининград
+        </span>
         <div className="promo__btm">
-          <a href="#about">
+          <Link
+            to="about"
+            className="navbar__link header-text header-text_12px"
+            activeClass="qq"
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={500}
+          >
             <button className="button button_promo">
               Про меня
-              
-              <img src={arrow} alt="" />
+              <img src={arrow} alt="arrow" />
             </button>
-          </a>
+          </Link>
         </div>
       </div>
     </div>
