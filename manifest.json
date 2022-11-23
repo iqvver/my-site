@@ -1,8 +1,6 @@
 {
-  "name": "Pavlov[Valerii] Frontend Developer",
   "short_name": "P[V]Frontend",
-  "theme_color": "#2196f3",
-  "background_color": "#2196f3",
+  "name": "Pavlov[Valerii] Frontend Developer",
   "display": "browser",
   "scope": "/",
   "start_url": "/",
@@ -13,13 +11,8 @@
       "type": "image/x-icon"
     },
     {
-      "src": "logo.png",
-      "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "logo.png",
-      "type": "image/png",
+      "src": "logo.svg",
+      "type": "image/svg",
       "sizes": "512x512"
     }
   ]
