@@ -1,5 +1,6 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
+import { NavLink } from "react-router-dom";
 
 const ContactForm = ({ setShowThanks }) => {
   const form = useRef();
@@ -53,10 +54,22 @@ const ContactForm = ({ setShowThanks }) => {
         <div className="contact-form__textarea">
           <textarea name="message" id="text" placeholder="Ваше сообщение" />
         </div>
-        <div className="contact-form__btm">
-          <button className="button button_bg-contact" type="submit">
-            ОТПРАВИТЬ
-          </button>
+        <div className="contact-form__footer">
+          <div className="contact-form__politica">
+            <input name="user_politica" type="checkbox" required />
+            <p className="title_fs10">
+              Я согласен(а)
+              <NavLink to="politica" target="_blank">
+                {" "}
+                политикой конфиденциальности
+              </NavLink>
+            </p>
+          </div>
+          <div className="contact-form__btm">
+            <button className="button button_bg-contact" type="submit">
+              ОТПРАВИТЬ
+            </button>
+          </div>
         </div>
       </form>
     </>

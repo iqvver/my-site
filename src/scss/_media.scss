@@ -66,6 +66,11 @@
     .title {
         font-size: 20px;
         line-height: 20px;
+
+        &_fs10 {
+            font-size: 6px;
+            line-height: 14px;
+        }
     }
 
     .header {
@@ -151,6 +156,15 @@
 
     .contact {
         grid-template: 50px 20px 5px 300px / 100%;
+    }
+
+    .contact-form {
+        &__politica {
+            a {
+                font-size: 6px;
+                line-height: 14px;
+            }
+        }
     }
 
     .page-up {
