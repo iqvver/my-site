@@ -1,7 +1,7 @@
 import React from "react";
 import ContactForm from "../Widgets/СontactForm/ContactForm";
 
-const Contact = () => {
+const Contact = ({ setShowThanks }) => {
   return (
     <div className="contact" id="contacts">
       <div className="container">
@@ -11,7 +11,7 @@ const Contact = () => {
         </div>
         <div className="divider divider_bgmain" />
         <div className="contact__form">
-          <ContactForm />
+          <ContactForm setShowThanks={setShowThanks} />
         </div>
       </div>
     </div>

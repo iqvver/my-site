@@ -10,6 +10,7 @@ import Promo from './Components/Promo/Promo';
 import './css/index.min.css';
 import 'animate.css';
 import Chevron from "./Components/Widgets/Chevron/Chevron";
+import ModalThanks from "./Components/Widgets/Modal/ModalThanks";
 
 function App() {
 
@@ -28,15 +29,19 @@ function App() {
     root?.style.setProperty("--sub-color", switchTheme ? "#1b2735" : "#DCDCDC");
   }, [switchTheme]);
 
+  const [showThanks, setShowThanks] = useState(false);
+
   return (
     <div className='app'>
+      <ModalThanks setShowThanks={setShowThanks}
+        showThanks={showThanks} />
       <Chevron />
       <Header switchTheme={switchTheme} setSwitchTheme={setSwitchTheme} />
       <Promo />
       <About />
       <Ability />
       <Portfolio />
-      <Contact />
+      <Contact setShowThanks={setShowThanks} />
       <Footer />
     </div>
   );

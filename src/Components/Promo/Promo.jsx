@@ -17,7 +17,7 @@ const Promo = () => {
           <Link
             to="about"
             className="navbar__link header-text header-text_12px"
-            activeClass="qq"
+            activeClass="navbar__link_active"
             spy={true}
             smooth={true}
             offset={50}
