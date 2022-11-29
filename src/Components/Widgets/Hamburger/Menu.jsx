@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../../Navbar/Navbar";
 import Social from "../Social/Social";
-import cansel from "../../../Assets/Icons/cansel.svg";
+import cansel from "../../../Assets/Icons/other/cansel.svg";
 import logo from "../../../logo.svg";
 
 const Menu = ({ hamburgerActive, showActiv }) => {

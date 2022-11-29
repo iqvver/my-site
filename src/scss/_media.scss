@@ -10,6 +10,34 @@
         margin-left: 0px;
     }
 
+    .portfolio {
+        &__wrapper {
+            grid-template: repeat(2, minmax(150px, 200px)) / repeat(4, minmax(150px, 200px));
+        }
+
+        &__info {
+            padding: 10px 10px 10px 10px;
+
+            &-header {
+
+                &-logo {
+                    width: 35px;
+                }
+            }
+
+            &-deckr {
+                &-title {
+                    font-size: 15px;
+                }
+            }
+
+            &-footer {
+                font-size: 15px;
+            }
+        }
+
+    }
+
     .contact {
         grid-template: 50px 20px 5px 300px / 60%;
     }
@@ -39,6 +67,40 @@
 
     .portfolio {
         padding: 70px 20px 80px 20px;
+
+        &__wrapper {
+            grid-template: repeat(2, minmax(100px, 150px)) / repeat(4, minmax(100px, 150px));
+        }
+
+        &__info {
+            padding: 5px 5px 5px 5px;
+
+            &-header {
+                &-logo {
+                    width: 25px;
+                }
+
+                &-link {
+                    img {
+                        width: 20px;
+                    }
+                }
+            }
+
+            &-deckr {
+                &-title {
+                    font-size: 12px;
+                }
+
+                &-text {
+                    font-size: 10px;
+                }
+            }
+
+            &-footer {
+                font-size: 12px;
+            }
+        }
     }
 
     .contact {
@@ -152,6 +214,20 @@
 
     .portfolio {
         padding: 50px 20px 50px 20px;
+
+        &__wrapper {
+            grid-template: repeat(3, minmax(100px, 130px)) / repeat(3, minmax(100px, 150px));
+
+            .vertical {
+                grid-row: 1 / 3;
+                grid-column: 1 / 2;
+            }
+
+            .horizontal {
+                grid-row: 3 / 4;
+                grid-column: 1 / 4;
+            }
+        }
     }
 
     .contact {
@@ -174,6 +250,60 @@
     }
 }
 
+@media (max-width: 465px) {
+    .portfolio {
+        &__info {
+            justify-content: space-around;
+            padding: 5px 1px 1px 1px;
+
+            &-deckr {
+                margin-top: 0px;
+
+                &-title {
+                    font-size: 12px;
+                }
+
+                &-text {
+                    font-size: 12px;
+                }
+            }
+
+            &-footer {
+                display: none;
+            }
+        }
+    }
+}
+
+@media (max-width: 400px) {
+    .portfolio {
+        &__info {
+            padding: 5px 5px 5px 5px;
+            justify-content: center;
+            align-items: center;
+
+            &-header {
+                justify-content: center;
+
+                &-logo {
+                    display: none;
+                }
+            }
+
+            &-deckr {
+                &-title {
+                    margin-top: 5px;
+                    font-size: 12px;
+                }
+
+                &-text {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
 @media (max-width: 321px) {
     .title {
         font-size: 16px;
@@ -182,6 +312,10 @@
 
     .header {
         grid-template: 20px / auto;
+    }
+
+    .social {
+        width: 100px;
     }
 
     .menu {
@@ -224,6 +358,32 @@
 
     .portfolio {
         padding: 30px 20px 20px 20px;
+
+        &__wrapper {
+            grid-template: repeat(3, minmax(50px, 120px)) / repeat(3, minmax(70px, 120px));
+
+            .vertical {
+                grid-row: 1 / 3;
+                grid-column: 1 / 2;
+            }
+
+            .horizontal {
+                grid-row: 3 / 4;
+                grid-column: 1 / 4;
+            }
+        }
+
+        &__info {
+            padding: 5px 5px 5px 5px;
+
+            &-deckr {
+                &-title {
+                    margin-top: 10px;
+                    font-size: 10px;
+                    text-align: center;
+                }
+            }
+        }
     }
 
     .page-up {

@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-scroll";
-import shevron from "../../../Assets/Icons/chevron.svg";
+import shevron from "../../../Assets/Icons/other/chevron.svg";
 
 const Chevron = () => {
   return (

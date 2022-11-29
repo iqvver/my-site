@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-scroll";
-import arrow from "../../Assets/Icons/arrow.svg";
+import arrow from "../../Assets/Icons/other/arrow.svg";
 
 const Promo = () => {
   return (

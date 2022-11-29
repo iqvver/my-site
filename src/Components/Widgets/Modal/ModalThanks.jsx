@@ -1,5 +1,5 @@
 import React from "react";
-import cansel from "../../../Assets/Icons/cansel.svg";
+import cansel from "../../../Assets/Icons/other/cansel.svg";
 
 const ModalThanks = ({ showThanks, setShowThanks }) => {
   return showThanks ? (

@@ -1,7 +1,7 @@
 {
   "name": "my-site",
   "version": "0.1.0",
-  "homepage": "https://iqvver.github.io/my-site/",
+  "homepage": ".",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.9.1",
