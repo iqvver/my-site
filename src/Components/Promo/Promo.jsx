@@ -1,10 +1,12 @@
 import React from "react";
 import { Link } from "react-scroll";
 import arrow from "../../Assets/Icons/other/arrow.svg";
+import Header from "../Header/Header";
 
-const Promo = () => {
+const Promo = ({switchTheme, setSwitchTheme}) => {
   return (
     <div className="promo" id="promo">
+      <Header switchTheme={switchTheme} setSwitchTheme={setSwitchTheme} />
       <div className="promo__stars" />
       <div className="promo__stars2" />
       <div className="promo__stars3" />

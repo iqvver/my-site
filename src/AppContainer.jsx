@@ -5,7 +5,6 @@ import Ability from "./Components/Ability/Ability";
 import About from "./Components/About/About";
 import Contact from "./Components/Contact/Contact";
 import Footer from "./Components/Footer/Footer";
-import Header from "./Components/Header/Header";
 import Portfolio from "./Components/Portfolio/Portfolio";
 import Promo from "./Components/Promo/Promo";
 import Chevron from "./Components/Widgets/Chevron/Chevron";
@@ -35,8 +34,7 @@ const AppContainer = () => {
     <div className="app">
       <ModalThanks setShowThanks={setShowThanks} showThanks={showThanks} />
       <Chevron />
-      <Header switchTheme={switchTheme} setSwitchTheme={setSwitchTheme} />
-      <Promo />
+      <Promo switchTheme={switchTheme} setSwitchTheme={setSwitchTheme} />
       <About />
       <Ability />
       <Portfolio />

@@ -4,6 +4,7 @@ import convertion from "../../Assets/Images/works/convertion.png";
 import users from "../../Assets/Images/works/users.png";
 import pokemon from "../../Assets/Images/works/pokemon.png";
 import notes from "../../Assets/Images/works/notes.png";
+import shop from "../../Assets/Images/works/shop.png";
 import folder from "../../Assets/Icons/works/folder.svg";
 import git from "../../Assets/Icons/works/git.svg";
 import link from "../../Assets/Icons/works/link.svg";
@@ -136,25 +137,32 @@ const Portfolio = () => {
                     <img src={folder} alt="folder" />
                   </div>
                   <div className="portfolio__info-header-link">
-                    <div>
+                    <a
+                      href="https://github.com/iqvver/my-shop"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
                       <img src={git} alt="git" />
-                    </div>
-                    <div>
+                    </a>
+                    <a
+                      href="https://iqvver.github.io/my-shop"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
                       <img src={link} alt="link" />
-                    </div>
+                    </a>
                   </div>
                 </div>
                 <div className="portfolio__info-deckr">
-                  <div className="portfolio__info-deckr-title">EMPTY</div>
+                  <div className="portfolio__info-deckr-title">Shop-App</div>
                   <div className="portfolio__info-deckr-text">
-                    ОЙ! <br />
-                    Сдесь пока, что нечего нет, но вскоре появистся!!!
+                    Магазин мебели, с возможность добавление товара в корзину.
                   </div>
                 </div>
-                <div className="portfolio__info-footer">... ... ...</div>
+                <div className="portfolio__info-footer">React, Redux, JS</div>
               </div>
               <div className="portfolio__img">
-                <img src={ipad} alt="ipad" />
+                <img src={shop} alt="shop" />
               </div>
             </div>
             <div className="portfolio__item horizontal">
